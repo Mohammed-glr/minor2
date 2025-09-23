@@ -29,3 +29,5 @@
 /workspaces/minor2/webapp/obj/Debug/net8.0/webapp.pdb
 /workspaces/minor2/webapp/obj/Debug/net8.0/webapp.genruntimeconfig.cache
 /workspaces/minor2/webapp/obj/Debug/net8.0/ref/webapp.dll
+/workspaces/minor2/webapp/bin/Debug/net8.0/package-lock.json
+/workspaces/minor2/webapp/bin/Debug/net8.0/package.json
