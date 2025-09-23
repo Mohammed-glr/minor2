@@ -5,20 +5,20 @@
 }
 
 <h1>Opdracht 1</h1>
-<main>
-    <div class="mb-4">
-        <h2>URL Parameters:</h2>
+<main class="space-y-6">
+    <div class="card">
+        <h2>URL Parameters</h2>
         <p><strong>Naam:</strong> @Model.MijnNaam</p>
         <p><strong>Leeftijd:</strong> @Model.Leeftijd</p>
         <p><strong>Stad:</strong> @Model.Stad</p>
     </div>
     
-    <div class="mb-4">
-        <h3>Test Links:</h3>
-        <ul>
-            <li><a href="/Opdrachten/Opdracht1?mijnNaam=Mohammed">Alleen naam</a></li>
-            <li><a href="/Opdrachten/Opdracht1?mijnNaam=Mohammed&leeftijd=18">Naam en leeftijd</a></li>
-            <li><a href="/Opdrachten/Opdracht1?mijnNaam=Mohammed&leeftijd=18&stad=Rotterdam">Alle parameters</a></li>
-        </ul>
+    <div class="card">
+        <h3>Test Links</h3>
+        <div class="flex flex-wrap justify-between">
+            <a class="btn btn-primary" href="/Opdrachten/Opdracht1?mijnNaam=Mohammed">Alleen naam</a>
+            <a class="btn btn-primary" href="/Opdrachten/Opdracht1?mijnNaam=Mohammed&leeftijd=18">Naam en leeftijd</a>
+            <a class="btn btn-primary" href="/Opdrachten/Opdracht1?mijnNaam=Mohammed&leeftijd=18&stad=Rotterdam">Alle parameters</a>
+        </div>
     </div>
 </main>

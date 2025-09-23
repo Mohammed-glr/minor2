@@ -3,21 +3,21 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace webapp.Pages.Opdrachten
 {
-    public class Opdracht2Model : PageModel
+    public class Opdracht22Model : PageModel
     {
-        private readonly ILogger<Opdracht2Model> _logger;
+        private readonly ILogger<Opdracht22Model> _logger;
 
         [BindProperty(SupportsGet = true)]
-        public int? Id { get; set; }
+        public int? Id1 { get; set; }
 
-        public Opdracht2Model(ILogger<Opdracht2Model> logger)
+        public Opdracht22Model(ILogger<Opdracht22Model> logger)
         {
             _logger = logger;
         }
 
         public void OnGet()
         {
-            
+
         }
     }
-}
+} 

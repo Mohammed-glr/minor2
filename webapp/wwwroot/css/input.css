@@ -1,11 +1,69 @@
 @import "tailwindcss";
 
-/* Custom styles */
-html {
-  position: relative;
-  min-height: 100%;
+/* Design tokens (CSS variables) */
+:root {
+  --color-bg: #0b1220;           /* page background */
+  --color-surface: #0f172a;      /* cards/nav surface */
+  --color-border: #1f2a44;       /* subtle borders */
+  --color-text: #e2e8f0;         /* primary text */
+  --color-muted: #93a4b7;        /* secondary text */
+  --color-brand: #38bdf8;        /* brand/accent */
+  --color-brand-strong: #0ea5e9; /* brand hover */
+
+  --radius-sm: 0.375rem;         /* 6px */
+  --radius-md: 0.5rem;           /* 8px */
+  --radius-lg: 0.75rem;          /* 12px */
+
+  --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 24px rgba(2, 6, 23, 0.25);
+
+  --container-max: 80rem;        /* 1280px */
 }
 
-body {
-  margin-bottom: 60px;
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg: #f8fafc;
+    --color-surface: #ffffff;
+    --color-border: #e2e8f0;
+    --color-text: #0f172a;
+    --color-muted: #475569;
+    --color-brand: #0284c7;
+    --color-brand-strong: #0369a1;
+  }
 }
+
+html { position: relative; min-height: 100%; }
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.container {
+  max-width: var(--container-max);
+}
+
+.navbar { @apply border-b; background: var(--color-surface); border-color: var(--color-border); box-shadow: var(--shadow-sm); }
+.nav-link { @apply px-3 py-2 rounded-md text-sm font-medium transition-colors; color: var(--color-text); }
+.nav-link:hover { color: var(--color-muted); }
+.brand { @apply text-xl font-semibold; color: var(--color-text); }
+.brand:hover { color: var(--color-muted); }
+
+.card { @apply p-6 border; background: var(--color-surface); border-color: var(--color-border); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);  }
+
+.btn { @apply inline-flex items-center justify-center px-4 py-2 font-medium transition-colors; border-radius: var(--radius-md); ; }
+.btn-primary { background: var(--color-brand); color: #0b1220; }
+.btn-primary:hover { background: var(--color-brand-strong); }
+.btn-ghost { color: var(--color-text); }
+.btn-ghost:hover { color: var(--color-brand); }
+
+.link { color: var(--color-brand); }
+.link:hover { color: var(--color-brand-strong); }
+
+h1, h2, h3 { @apply font-bold; }
+h1 { @apply text-3xl mb-4; }
+h2 { @apply text-2xl mb-3; }
+h3 { @apply text-xl mb-2; }
+
+.site-footer { @apply border-t; border-color: var(--color-border); color: var(--color-muted); }
+

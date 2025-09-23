@@ -4,7 +4,13 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="max-w-3xl mx-auto">
+    <div class="card">
+        <h1>Welcome</h1>
+        <p class="mb-4">Learn about <a class="link" href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <div class="flex gap-3">
+            <a class="btn btn-primary" asp-page="/Opdrachten/Opdracht1">Start Opdracht 1</a>
+            <a class="btn btn-ghost" asp-page="/Opdrachten/Opdracht2">Start Opdracht 2</a>
+        </div>
+    </div>
 </div>
