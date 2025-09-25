@@ -5,6 +5,7 @@ namespace webapp.Pages.Opdrachten
 {
     public class Opdracht223Model : PageModel
     {
+        
         [BindProperty(SupportsGet = true)]
         public int Id1 { get; set; }
 

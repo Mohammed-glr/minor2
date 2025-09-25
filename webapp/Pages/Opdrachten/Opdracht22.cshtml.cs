@@ -8,6 +8,7 @@ namespace webapp.Pages.Opdrachten
         private readonly ILogger<Opdracht22Model> _logger;
 
         [BindProperty(SupportsGet = true)]
+    
         public int? Id1 { get; set; }
 
         public Opdracht22Model(ILogger<Opdracht22Model> logger)
