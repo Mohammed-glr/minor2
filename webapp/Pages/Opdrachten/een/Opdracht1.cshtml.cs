@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 
-namespace webapp.Pages.Opdrachten
+namespace webapp.Pages.Opdrachten.een
 {
     public class Opdracht1Model : PageModel
     {
