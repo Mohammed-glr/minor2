@@ -1,0 +1,63 @@
+@page
+@model Opdracht3Model
+@{
+    ViewData["Title"] = "Opdracht 3 - Producten";
+}
+
+<div class="max-w-7xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">Product Catalogus</h1>
+    
+    @if (Model.Producten.Any())
+    {
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            @foreach (var product in Model.Producten)
+            {
+                <div class="card hover:shadow-lg transition-shadow mb-4">
+                    <img src="@product.Img" alt="@product.Naam" class="w-full h-48 object-cover rounded-t-lg mb-4">
+                    
+                    <div class="px-4 pb-4">
+                        <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mb-2">
+                            @product.Categorie
+                        </span>
+                        
+                        <h3 class="text-xl font-semibold mb-2">@product.Naam</h3>
+                        
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-3">@product.Beschrijving</p>
+                        
+                        <div class="flex items-center mb-3">
+                            <span class="text-yellow-500 mr-2">★</span>
+                            <span class="text-sm">@product.Rating.ToString("0.0")</span>
+                            <span class="text-gray-400 text-sm ml-auto">
+                                Voorraad: @product.Voorraad
+                            </span>
+                        </div>
+                        
+                        <div class="flex items-center justify-between">
+                            <span class="text-2xl font-bold text-green-600">
+                                €@product.Prijs.ToString("0.00")
+                            </span>
+                            @if (product.Voorraad > 0)
+                            {
+                                <a asp-page="/Opdrachten/drie/bestelpage" asp-route-productId="@product.Id" class="btn btn-primary btn-sm">
+                                    Bestel
+                                </a>
+                            }
+                            else
+                            {
+                                <button class="btn btn-primary btn-sm opacity-50 cursor-not-allowed" disabled title="Niet op voorraad">
+                                    Uitverkocht
+                                </button>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="card">
+            <p class="text-center text-gray-600">Geen producten gevonden.</p>
+        </div>
+    }
+</div>

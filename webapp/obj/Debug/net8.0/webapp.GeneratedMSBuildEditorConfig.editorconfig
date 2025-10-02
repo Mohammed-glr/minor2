@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/workspaces/minor2/webapp/Pages/Opdrachten/drie/bestelpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi9kcmllL2Jlc3RlbHBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/workspaces/minor2/webapp/Pages/Opdrachten/drie/Opdracht3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi9kcmllL09wZHJhY2h0My5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
