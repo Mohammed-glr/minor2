@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a0MRUiFSiqjeyr5/l1oeorIYuaigLmMyzW5PTJ2RFfo=",
+  "Hash": "xKXkDk8Agw0zI6CZ53SgeKb1MFFAyHEUrgofONeprmU=",
   "Source": "webapp",
   "BasePath": "_content/webapp",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "webapp/wwwroot",
+      "Name": "webapp\\wwwroot",
       "Source": "webapp",
-      "ContentRoot": "/workspaces/minor2/webapp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\",
       "BasePath": "_content/webapp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/workspaces/minor2/webapp/obj/Debug/net8.0/scopedcss/bundle/webapp.styles.css",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\webapp.styles.css",
       "SourceId": "webapp",
       "SourceType": "Computed",
-      "ContentRoot": "/workspaces/minor2/webapp/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/webapp",
       "RelativePath": "webapp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/workspaces/minor2/webapp/obj/Debug/net8.0/scopedcss/bundle/webapp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Mohammed\\minor2\\webapp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\webapp.styles.css"
     },
     {
-      "Identity": "/workspaces/minor2/webapp/obj/Debug/net8.0/scopedcss/projectbundle/webapp.bundle.scp.css",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\webapp.bundle.scp.css",
       "SourceId": "webapp",
       "SourceType": "Computed",
-      "ContentRoot": "/workspaces/minor2/webapp/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/webapp",
       "RelativePath": "webapp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/workspaces/minor2/webapp/obj/Debug/net8.0/scopedcss/projectbundle/webapp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Mohammed\\minor2\\webapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\webapp.bundle.scp.css"
     },
     {
-      "Identity": "/workspaces/minor2/webapp/wwwroot/css/input.css",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\css\\input.css",
       "SourceId": "webapp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/minor2/webapp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\",
       "BasePath": "_content/webapp",
       "RelativePath": "css/input.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/input.css"
+      "OriginalItemSpec": "wwwroot\\css\\input.css"
     },
     {
-      "Identity": "/workspaces/minor2/webapp/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\css\\site.css",
       "SourceId": "webapp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/minor2/webapp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\",
       "BasePath": "_content/webapp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/workspaces/minor2/webapp/wwwroot/favicon.ico",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\favicon.ico",
       "SourceId": "webapp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/minor2/webapp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\",
       "BasePath": "_content/webapp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "/workspaces/minor2/webapp/wwwroot/img/1.png",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\img\\1.png",
       "SourceId": "webapp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/minor2/webapp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\",
       "BasePath": "_content/webapp",
       "RelativePath": "img/1.png",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/1.png"
+      "OriginalItemSpec": "wwwroot\\img\\1.png"
     },
     {
-      "Identity": "/workspaces/minor2/webapp/wwwroot/img/2.png",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\img\\2.png",
       "SourceId": "webapp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/minor2/webapp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\",
       "BasePath": "_content/webapp",
       "RelativePath": "img/2.png",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/2.png"
+      "OriginalItemSpec": "wwwroot\\img\\2.png"
     },
     {
-      "Identity": "/workspaces/minor2/webapp/wwwroot/img/3.png",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\img\\3.png",
       "SourceId": "webapp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/minor2/webapp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\",
       "BasePath": "_content/webapp",
       "RelativePath": "img/3.png",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/3.png"
+      "OriginalItemSpec": "wwwroot\\img\\3.png"
     },
     {
-      "Identity": "/workspaces/minor2/webapp/wwwroot/img/4.png",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\img\\4.png",
       "SourceId": "webapp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/minor2/webapp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\",
       "BasePath": "_content/webapp",
       "RelativePath": "img/4.png",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/4.png"
+      "OriginalItemSpec": "wwwroot\\img\\4.png"
     },
     {
-      "Identity": "/workspaces/minor2/webapp/wwwroot/img/5.png",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\img\\5.png",
       "SourceId": "webapp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/minor2/webapp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\",
       "BasePath": "_content/webapp",
       "RelativePath": "img/5.png",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/5.png"
+      "OriginalItemSpec": "wwwroot\\img\\5.png"
     },
     {
-      "Identity": "/workspaces/minor2/webapp/wwwroot/js/site.js",
+      "Identity": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\js\\site.js",
       "SourceId": "webapp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/minor2/webapp/wwwroot/",
+      "ContentRoot": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\",
       "BasePath": "_content/webapp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     }
   ]
 }

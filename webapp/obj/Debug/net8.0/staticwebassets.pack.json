@@ -1,59 +1,59 @@
 {
   "Files": [
     {
-      "Id": "/workspaces/minor2/webapp/obj/Debug/net8.0/scopedcss/projectbundle/webapp.bundle.scp.css",
-      "PackagePath": "staticwebassets/webapp.bundle.scp.css"
+      "Id": "C:\\Users\\Mohammed\\minor2\\webapp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\webapp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\webapp.bundle.scp.css"
     },
     {
-      "Id": "/workspaces/minor2/webapp/wwwroot/css/input.css",
-      "PackagePath": "staticwebassets/css/input.css"
+      "Id": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\css\\input.css",
+      "PackagePath": "staticwebassets\\css\\input.css"
     },
     {
-      "Id": "/workspaces/minor2/webapp/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "/workspaces/minor2/webapp/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
+      "Id": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "/workspaces/minor2/webapp/wwwroot/img/1.png",
-      "PackagePath": "staticwebassets/img/1.png"
+      "Id": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\img\\1.png",
+      "PackagePath": "staticwebassets\\img\\1.png"
     },
     {
-      "Id": "/workspaces/minor2/webapp/wwwroot/img/2.png",
-      "PackagePath": "staticwebassets/img/2.png"
+      "Id": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\img\\2.png",
+      "PackagePath": "staticwebassets\\img\\2.png"
     },
     {
-      "Id": "/workspaces/minor2/webapp/wwwroot/img/3.png",
-      "PackagePath": "staticwebassets/img/3.png"
+      "Id": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\img\\3.png",
+      "PackagePath": "staticwebassets\\img\\3.png"
     },
     {
-      "Id": "/workspaces/minor2/webapp/wwwroot/img/4.png",
-      "PackagePath": "staticwebassets/img/4.png"
+      "Id": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\img\\4.png",
+      "PackagePath": "staticwebassets\\img\\4.png"
     },
     {
-      "Id": "/workspaces/minor2/webapp/wwwroot/img/5.png",
-      "PackagePath": "staticwebassets/img/5.png"
+      "Id": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\img\\5.png",
+      "PackagePath": "staticwebassets\\img\\5.png"
     },
     {
-      "Id": "/workspaces/minor2/webapp/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
+      "Id": "C:\\Users\\Mohammed\\minor2\\webapp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.webapp.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webapp.props",
       "PackagePath": "build\\webapp.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.webapp.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.webapp.props",
       "PackagePath": "buildMultiTargeting\\webapp.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.webapp.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.webapp.props",
       "PackagePath": "buildTransitive\\webapp.props"
     },
     {
-      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.webapp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.webapp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     }
   ],

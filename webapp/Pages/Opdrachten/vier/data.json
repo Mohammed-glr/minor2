@@ -1,0 +1,55 @@
+
+{
+    "producten": [
+        {
+            "id": 1,
+            "naam": "Laptop Dell XPS 15",
+            "prijs": 1499.99,
+            "beschrijving": "Krachtige laptop met Intel i7 processor, 16GB RAM en 512GB SSD. Perfect voor professioneel werk en gaming.",
+            "img": "../../img/1.png",
+            "categorie": "Electronica",
+            "voorraad": 15,
+            "rating": 4.5
+        },
+        {
+            "id": 2,
+            "naam": "iPhone 15 Pro",
+            "prijs": 1299.00,
+            "beschrijving": "De nieuwste iPhone met A17 Pro chip, titanium design en professionele camera's.",
+            "img": "../../img/2.png",
+            "categorie": "Telefoons",
+            "voorraad": 23,
+            "rating": 4.8
+        },
+        {
+            "id": 3,
+            "naam": "Sony WH-1000XM5",
+            "prijs": 399.99,
+            "beschrijving": "Premium noise-cancelling koptelefoon met uitstekende geluidskwaliteit en 30 uur batterijduur.",
+            "img": "../../img/3.png",
+            "categorie": "Audio",
+            "voorraad": 42,
+            "rating": 4.7
+        },
+        {
+            "id": 4,
+            "naam": "Samsung 55\" QLED TV",
+            "prijs": 899.00,
+            "beschrijving": "4K QLED televisie met Quantum Dot technologie en smart TV functies.",
+            "img": "../../img/4.png",
+            "categorie": "Electronica",
+            "voorraad": 8,
+            "rating": 4.6
+        },
+        {
+            "id": 5,
+            "naam": "Apple Watch Series 9",
+            "prijs": 449.00,
+            "beschrijving": "Smartwatch met geavanceerde gezondheidsmonitoring en fitness tracking.",
+            "img": "../../img/5.png",
+            "categorie": "Wearables",
+            "voorraad": 31,
+            "rating": 4.5
+        }
+    ]
+}

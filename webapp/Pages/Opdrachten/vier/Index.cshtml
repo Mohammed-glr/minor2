@@ -1,0 +1,39 @@
+@page
+@model webapp.Pages.Opdrachten.vier.IndexModel
+@{
+    ViewData["Title"] = "Opdracht 4 - Overzicht";
+}
+
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">Bestelling Overzicht (Sessie)</h1>
+
+    @if (!string.IsNullOrWhiteSpace(Model.Name))
+    {
+        <div class="card bg-green-50 border-green-200 mb-6">
+            <p class="text-green-800"><strong>Naam:</strong> @Model.Name</p>
+            <p class="text-green-800"><strong>Email:</strong> @Model.Email</p>
+            <p class="text-green-800"><strong>Adres:</strong> @Model.Address</p>
+            <p class="text-green-800"><strong>Postcode:</strong> @Model.ZipCode</p>
+            <p class="text-green-800"><strong>Stad:</strong> @Model.City</p>
+            @if (!string.IsNullOrWhiteSpace(Model.ProductId))
+            {
+                <p class="text-green-800"><strong>Product Id:</strong> @Model.ProductId</p>
+                <p class="text-green-800"><strong>Product Naam:</strong> @Model.ProductNaam</p>
+                <img src="@Model.ProductImg" alt="@Model.ProductNaam" class="w-full h-48 object-cover rounded-t-lg mb-4">
+            }
+        </div>
+    }
+    else
+    {
+        <div class="card">
+            <p class="text-gray-700">Geen gegevens in de sessie gevonden.</p>
+        </div>
+    }
+
+    <div class="mt-6 flex gap-4">
+        <a asp-page="/Opdrachten/vier/Opdracht4" class="btn btn-primary">Terug naar producten</a>
+        <form method="post">
+            <button type="submit" class="btn btn-ghost">Sessie wissen</button>
+        </form>
+    </div>
+</div> 

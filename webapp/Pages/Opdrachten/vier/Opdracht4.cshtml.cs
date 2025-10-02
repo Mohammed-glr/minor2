@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Text.Json;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
-namespace webapp.Pages.Opdrachten.drie
+namespace webapp.Pages.Opdrachten.vier
 {
     public class Product
     {
@@ -20,15 +22,15 @@ namespace webapp.Pages.Opdrachten.drie
         public List<Product> Producten { get; set; } = new();
     }
 
-    public class Opdracht3Model : PageModel
+    public class Opdracht4Model : PageModel
     {
-        private readonly ILogger<Opdracht3Model> _logger;
+        private readonly ILogger<Opdracht4Model> _logger;
         private readonly IWebHostEnvironment _environment;
 
         public List<Product> Producten { get; set; } = new();
         public string? Name { get; set; }
 
-        public Opdracht3Model(ILogger<Opdracht3Model> logger, IWebHostEnvironment environment)
+            public Opdracht4Model(ILogger<Opdracht4Model> logger, IWebHostEnvironment environment)
         {
             _logger = logger;
             _environment = environment;
@@ -39,7 +41,7 @@ namespace webapp.Pages.Opdrachten.drie
             string? name
         )
         {
-            var jsonPath = Path.Combine(_environment.ContentRootPath, "Pages", "Opdrachten", "drie", "data.json");
+            var jsonPath = Path.Combine(_environment.ContentRootPath, "Pages", "Opdrachten", "vier", "data.json");
 
             if (System.IO.File.Exists(jsonPath))
             {
@@ -64,6 +66,32 @@ namespace webapp.Pages.Opdrachten.drie
             {
                 Name = name;
             }
+        }
+        
+         public IActionResult OnPost()
+        {
+            var name = Request.Form["Name"].ToString();
+            var email = Request.Form["email"].ToString();
+            var address = Request.Form["address"].ToString();
+            var zipCode = Request.Form["zipCode"].ToString();
+            var city = Request.Form["city"].ToString();
+            var productId = Request.Form["productId"].ToString();
+            var productNaam = Request.Form["productNaam"].ToString();
+            var productImg = Request.Form["productImg"].ToString();
+
+            HttpContext.Session.SetString("Name", name);
+            HttpContext.Session.SetString("Email", email);
+            HttpContext.Session.SetString("Address", address);
+            HttpContext.Session.SetString("ZipCode", zipCode);
+            HttpContext.Session.SetString("City", city);
+            if (!string.IsNullOrEmpty(productId) && !string.IsNullOrEmpty(productNaam) && !string.IsNullOrEmpty(productImg))
+            {
+                HttpContext.Session.SetString("ProductId", productId);
+                HttpContext.Session.SetString("ProductNaam", productNaam);
+                HttpContext.Session.SetString("ProductImg", productImg);
+            }
+
+            return RedirectToPage("/Opdrachten/vier/Index");
         }
     }
 }

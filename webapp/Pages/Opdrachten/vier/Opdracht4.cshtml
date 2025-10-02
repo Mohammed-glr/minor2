@@ -1,7 +1,7 @@
 @page
-@model Opdracht3Model
+@model Opdracht4Model
 @{
-    ViewData["Title"] = "Opdracht 3 - Producten";
+    ViewData["Title"] = "Opdracht 4 - Producten";
 }
 
 <div class="max-w-7xl mx-auto">
@@ -45,7 +45,7 @@
                             </span>
                             @if (product.Voorraad > 0)
                             {
-                                <a asp-page="/Opdrachten/drie/bestelpage" asp-route-productId="@product.Id" class="btn btn-primary btn-sm">
+                                <a asp-page="/Opdrachten/vier/bestelpage" asp-route-productId="@product.Id" class="btn btn-primary btn-sm">
                                     Bestel
                                 </a>
                             }

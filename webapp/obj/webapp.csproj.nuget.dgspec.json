@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/minor2/webapp/webapp.csproj": {}
+    "C:\\Users\\Mohammed\\minor2\\webapp\\webapp.csproj": {}
   },
   "projects": {
-    "/workspaces/minor2/webapp/webapp.csproj": {
+    "C:\\Users\\Mohammed\\minor2\\webapp\\webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/minor2/webapp/webapp.csproj",
+        "projectUniqueName": "C:\\Users\\Mohammed\\minor2\\webapp\\webapp.csproj",
         "projectName": "webapp",
-        "projectPath": "/workspaces/minor2/webapp/webapp.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/minor2/webapp/obj/",
+        "projectPath": "C:\\Users\\Mohammed\\minor2\\webapp\\webapp.csproj",
+        "packagesPath": "C:\\Users\\Mohammed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mohammed\\minor2\\webapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Mohammed\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.412/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
