@@ -9,75 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = webapp
 build_property.RootNamespace = webapp
-build_property.ProjectDir = C:\Users\Mohammed\minor2\webapp\
+build_property.ProjectDir = /workspaces/minor2/webapp/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Mohammed\minor2\webapp
+build_property.MSBuildProjectDirectory = /workspaces/minor2/webapp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/workspaces/minor2/webapp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+[/workspaces/minor2/webapp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Opdrachten/drie/bestelpage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BkcmFjaHRlblxkcmllXGJlc3RlbHBhZ2UuY3NodG1s
+[/workspaces/minor2/webapp/Pages/Opdrachten/drie/bestelpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi9kcmllL2Jlc3RlbHBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Opdrachten/drie/Opdracht3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BkcmFjaHRlblxkcmllXE9wZHJhY2h0My5jc2h0bWw=
+[/workspaces/minor2/webapp/Pages/Opdrachten/drie/Opdracht3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi9kcmllL09wZHJhY2h0My5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Opdrachten/een/Opdracht1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BkcmFjaHRlblxlZW5cT3BkcmFjaHQxLmNzaHRtbA==
+[/workspaces/minor2/webapp/Pages/Opdrachten/een/Opdracht1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi9lZW4vT3BkcmFjaHQxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Opdrachten/twee/Opdracht2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BkcmFjaHRlblx0d2VlXE9wZHJhY2h0Mi5jc2h0bWw=
+[/workspaces/minor2/webapp/Pages/Opdrachten/twee/Opdracht2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi90d2VlL09wZHJhY2h0Mi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Opdrachten/twee/Opdracht22.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BkcmFjaHRlblx0d2VlXE9wZHJhY2h0MjIuY3NodG1s
+[/workspaces/minor2/webapp/Pages/Opdrachten/twee/Opdracht22.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi90d2VlL09wZHJhY2h0MjIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Opdrachten/twee/Opdracht223.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BkcmFjaHRlblx0d2VlXE9wZHJhY2h0MjIzLmNzaHRtbA==
+[/workspaces/minor2/webapp/Pages/Opdrachten/twee/Opdracht223.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi90d2VlL09wZHJhY2h0MjIzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Opdrachten/twee/Opdracht2234.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BkcmFjaHRlblx0d2VlXE9wZHJhY2h0MjIzNC5jc2h0bWw=
+[/workspaces/minor2/webapp/Pages/Opdrachten/twee/Opdracht2234.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi90d2VlL09wZHJhY2h0MjIzNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Opdrachten/vier/bestelpage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BkcmFjaHRlblx2aWVyXGJlc3RlbHBhZ2UuY3NodG1s
+[/workspaces/minor2/webapp/Pages/Opdrachten/vier/bestelpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi92aWVyL2Jlc3RlbHBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Opdrachten/vier/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BkcmFjaHRlblx2aWVyXEluZGV4LmNzaHRtbA==
+[/workspaces/minor2/webapp/Pages/Opdrachten/vier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi92aWVyL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Opdrachten/vier/Opdracht4.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BkcmFjaHRlblx2aWVyXE9wZHJhY2h0NC5jc2h0bWw=
+[/workspaces/minor2/webapp/Pages/Opdrachten/vier/Opdracht4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi92aWVyL09wZHJhY2h0NC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/workspaces/minor2/webapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/workspaces/minor2/webapp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[/workspaces/minor2/webapp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Mohammed/minor2/webapp/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-1mra30w038
+[/workspaces/minor2/webapp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-enjpwd5p0e
