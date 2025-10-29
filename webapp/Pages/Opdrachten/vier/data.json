@@ -8,7 +8,7 @@
             "beschrijving": "Krachtige laptop met Intel i7 processor, 16GB RAM en 512GB SSD. Perfect voor professioneel werk en gaming.",
             "img": "../../img/1.png",
             "categorie": "Electronica",
-            "voorraad": 15,
+            "voorraad": 0,
             "rating": 4.5
         },
         {
@@ -18,7 +18,7 @@
             "beschrijving": "De nieuwste iPhone met A17 Pro chip, titanium design en professionele camera's.",
             "img": "../../img/2.png",
             "categorie": "Telefoons",
-            "voorraad": 23,
+            "voorraad": 1,
             "rating": 4.8
         },
         {

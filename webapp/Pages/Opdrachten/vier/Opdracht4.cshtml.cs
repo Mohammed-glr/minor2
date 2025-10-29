@@ -69,7 +69,7 @@ namespace webapp.Pages.Opdrachten.vier
         }
         
          public IActionResult OnPost()
-        {
+        {  
             var name = Request.Form["Name"].ToString();
             var email = Request.Form["email"].ToString();
             var address = Request.Form["address"].ToString();
@@ -78,7 +78,6 @@ namespace webapp.Pages.Opdrachten.vier
             var productId = Request.Form["productId"].ToString();
             var productNaam = Request.Form["productNaam"].ToString();
             var productImg = Request.Form["productImg"].ToString();
-
             HttpContext.Session.SetString("Name", name);
             HttpContext.Session.SetString("Email", email);
             HttpContext.Session.SetString("Address", address);
