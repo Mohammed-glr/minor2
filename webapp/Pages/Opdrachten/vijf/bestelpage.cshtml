@@ -1,0 +1,113 @@
+@page
+@model BestelpageModel
+@{
+    ViewData["Title"] = "Bestelpagina";
+}
+
+<div class="max-w-4xl mx-auto">
+    <div class="mb-6">
+        <a asp-page="/Opdrachten/vier/Opdracht4" class="link">← Terug naar producten</a>
+    </div>
+
+    @if (Model.ProductNotFound)
+    {
+        <div class="card bg-red-50 border-red-200">
+            <h2 class="text-xl font-bold text-red-800 mb-2">Product niet gevonden</h2>
+            <p class="text-red-600">Het door u geselecteerde product kon niet worden gevonden.</p>
+            <a asp-page="/Opdrachten/vier/Opdracht4" class="btn btn-primary mt-4">Terug naar overzicht</a>
+        </div>
+    }
+    else if (Model.SelectedProduct != null)
+    {
+        <div class="card">
+            <h1 class="text-3xl font-bold mb-6">Bestel @Model.SelectedProduct.Naam</h1>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div>
+                    <img src="@Model.SelectedProduct.Img" alt="@Model.SelectedProduct.Naam" class="w-full rounded-lg shadow-md">
+                </div>
+                
+                <div>
+                    <span class="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded mb-3">
+                        @Model.SelectedProduct.Categorie
+                    </span>
+                    
+                    <h2 class="text-2xl font-bold mb-4">@Model.SelectedProduct.Naam</h2>
+                    
+                    <p class="text-gray-700 mb-4">@Model.SelectedProduct.Beschrijving</p>
+                    
+                    <div class="flex items-center mb-4">
+                        <span class="text-yellow-500 text-xl mr-2">★</span>
+                        <span class="text-lg font-semibold">@Model.SelectedProduct.Rating.ToString("0.0")</span>
+                        <span class="text-gray-500 ml-2">(Beoordeling)</span>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <span class="text-gray-600">Voorraad: </span>
+                        <span class="font-semibold @(Model.SelectedProduct.Voorraad > 10 ? "text-green-600" : "text-orange-600")">
+                            @Model.SelectedProduct.Voorraad stuks beschikbaar
+                        </span>
+                    </div>
+                    
+                    <div class="border-t pt-4 mb-6">
+                        <span class="text-4xl font-bold text-green-600">
+                            €@Model.SelectedProduct.Prijs.ToString("0.00")
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t pt-6">
+                <h3 class="text-xl font-bold mb-4">Bestelformulier</h3>
+                
+                <form method="post" class="space-y-4">
+                    <input type="hidden" name="productId" value="@Model.SelectedProduct.Id" />
+                    <input type="hidden" name="productNaam" value="@Model.SelectedProduct.Naam" />
+                    <input type="hidden" name="productImg" value="@Model.SelectedProduct.Img" />
+                    
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-2" for="Name">Naam</label>
+                            <input type="text" name="Name" class="w-full px-3 py-2 border rounded-lg bg-gray-50" required value="@Model.Name" />
+                        </div>
+
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Email</label>
+                        <input type="email" name="email" class="w-full px-3 py-2 border rounded-lg bg-gray-50" required />
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium mb-2">Adres</label>
+                        <input type="text" name="address" class="w-full px-3 py-2 border rounded-lg bg-gray-50" required />
+                    </div>
+                    
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Postcode</label>
+                            <input type="text" name="zipCode" class="w-full px-3 py-2 border rounded-lg bg-gray-50" required />
+                        </div>
+                        
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-medium mb-2">Stad</label>
+                            <input type="text" name="city" class="w-full px-3 py-2 border rounded-lg bg-gray-50" required />
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="flex gap-4 pt-4">
+                        <button type="submit" class="btn btn-primary flex-1">
+                        
+                            Bestelling plaatsen
+                        </button>
+                        <a asp-page="/Opdrachten/vier/Opdracht4" class="btn btn-ghost">
+                            Annuleren
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+</div>
+
