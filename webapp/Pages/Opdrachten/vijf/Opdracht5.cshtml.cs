@@ -91,7 +91,7 @@ namespace webapp.Pages.Opdrachten.vijf
                 HttpContext.Session.SetString("ProductImg", productImg);
             }
 
-            return RedirectToPage("/Opdrachten/vier/Index");
+            return RedirectToPage("/Opdrachten/vijf/Index");
         }
     }
 }

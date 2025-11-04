@@ -86,6 +86,8 @@ namespace webapp.Pages.Opdrachten.vijf
             HttpContext.Session.SetString("Address", address);
             HttpContext.Session.SetString("ZipCode", zipCode);
             HttpContext.Session.SetString("City", city);
+            HttpContext.Session.SetString("BestelDatum", DateTime.Now.ToString("yyyy-MM-dd"));
+            HttpContext.Session.SetString("LeverDatum", DateTime.Now.AddDays(42).ToString("yyyy-MM-dd"));
             if (!string.IsNullOrEmpty(productId))
             {
                 HttpContext.Session.SetString("ProductId", productId);
@@ -93,7 +95,7 @@ namespace webapp.Pages.Opdrachten.vijf
                 HttpContext.Session.SetString("ProductImg", productImg);
             }
 
-            return RedirectToPage("/Opdrachten/vier/Index");
+            return RedirectToPage("/Opdrachten/vijf/Index");
         }
     }
 }

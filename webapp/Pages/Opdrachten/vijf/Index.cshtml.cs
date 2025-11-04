@@ -14,8 +14,8 @@ namespace webapp.Pages.Opdrachten.vijf
         public string? ProductId { get; set; }
         public string? ProductNaam { get; set; }
         public string? ProductImg { get; set; }
-        public DateTime BestelDatum { get; set; } = DateTime.Now;
-        public DateTime LeverDatum { get; set; } = DateTime.Now.AddDays(42);
+        public DateTime BestelDatum { get; set; }
+        public DateTime LeverDatum { get; set; }
 
         public void OnGet()
         {
@@ -28,6 +28,11 @@ namespace webapp.Pages.Opdrachten.vijf
             ProductNaam = HttpContext.Session.GetString("ProductNaam");
             ProductImg = HttpContext.Session.GetString("ProductImg");
 
+            string? bestelDatumStr = HttpContext.Session.GetString("BestelDatum");
+            string? leverDatumStr = HttpContext.Session.GetString("LeverDatum");
+
+            BestelDatum = DateTime.TryParse(bestelDatumStr, out var bd) ? bd : DateTime.Now;
+            LeverDatum = DateTime.TryParse(leverDatumStr, out var ld) ? ld : DateTime.Now.AddDays(42);
         }
 
         public IActionResult OnPost()
