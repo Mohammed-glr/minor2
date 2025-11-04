@@ -1,0 +1,40 @@
+@page
+@model Opdracht6Model
+@{
+    ViewData["Title"] = "Opdracht 6 - Producten";
+}
+
+<div class="max-w-7xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6">Product Catalogus</h1>
+    
+    @if (!string.IsNullOrWhiteSpace(Model.Name))
+    {
+        <div class="card bg-green-50 border-green-200">
+            <p class="text-green-800"><strong>Naam:</strong> @Model.Name</p>
+        </div>
+    }
+    
+    @if (Model.Producten.Any())
+    {
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            @foreach (var product in Model.Producten)
+            {
+                <div class="card">
+                    <h3 class="font-bold text-lg mb-2">@product.Naam</h3>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Type:</strong> @product.Type</p>
+                    <p class="text-sm text-gray-700 mb-3">@product.Omschrijving</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl font-bold text-green-600">€@product.Prijs.ToString("0.00")</span>
+                        <span class="text-xs text-gray-500">Art.nr: @product.ArtikelNr</span>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="card">
+            <p class="text-center text-gray-600">Geen producten gevonden.</p>
+        </div>
+    }
+</div>

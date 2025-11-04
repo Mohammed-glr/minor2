@@ -78,6 +78,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi92aWpmL09wZHJhY2h0NS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/workspaces/minor2/webapp/Pages/Opdrachten/zes/bestelpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi96ZXMvYmVzdGVscGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/minor2/webapp/Pages/Opdrachten/zes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi96ZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/minor2/webapp/Pages/Opdrachten/zes/Opdracht6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3BkcmFjaHRlbi96ZXMvT3BkcmFjaHQ2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/workspaces/minor2/webapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
